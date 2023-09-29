@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+:root {
+    --almost-black: #071013; /* Body e Nav.*/
+    --darker-purple: #3f235c79; /* Sobre nós, Itens de Soluções, Form.*/
+    --purple: #3f235ce5; /* Nosso prêmios, Footer.*/
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.kleytin-logo {
+    font-family: 'Ephesis', cursive;
+}
