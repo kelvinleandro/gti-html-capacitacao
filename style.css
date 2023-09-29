@@ -3,10 +3,10 @@
 
 :root {
     --almost-black: #071013; /* Body e Nav.*/
-    --darker-purple: #3f235c79; /* Sobre nós, Itens de Soluções, Form.*/
+    --darker-purple: #211835;
+    --dark-purple: #3f235c79; /* Sobre nós, Itens de Soluções, Form.*/
     --purple: #3f235ce5; /* Nosso prêmios, Footer.*/
 }
-
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -19,8 +19,65 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .kleytin-logo {
     font-family: 'Ephesis', cursive;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+header {
+    display: flex;
+    background-color: var(--almost-black);
+    padding: 0.7em 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    padding: 7px;
+}
+
+#about-us {
+    padding-bottom: 30px;
+    background-color: var(--darker-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
 }
