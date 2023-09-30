@@ -177,3 +177,45 @@ header nav a {
     color: #00ff00;
     font-size: 50px;
 }
+
+footer {
+    background-color: var(--purple);
+}
+
+footer .footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footer-links > * {
+    margin-top: 20px;
+}
+
+.language label, .language select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.socials h3, .other-pages h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.social-links a, .pages-links a {
+    display: block;
+}
+
+.pages-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-credits {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-credits #heart {
+    color: red;
+}
