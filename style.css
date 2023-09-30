@@ -4,8 +4,8 @@
 :root {
     --almost-black: #071013; /* Body e Nav.*/
     --darker-purple: #211835;
-    --dark-purple: #3f235c79; /* Sobre nós, Itens de Soluções, Form.*/
-    --purple: #3f235ce5; /* Nosso prêmios, Footer.*/
+    --light-purple: #4c2f6b; /* Sobre nós, Itens de Soluções, Form.*/
+    --purple: #392054; /* Nosso prêmios, Footer.*/
 }
 
 .material-symbols-outlined {
@@ -143,4 +143,37 @@ header nav a {
 
 .service-card button:hover {
     cursor: pointer;
+}
+
+#achievements {
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--light-purple);
+    width: 60%;
+    margin: 0 auto 25px;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.achievement-item .item-1 {
+    color: #ffff00;
+    font-size: 60px;
+}
+
+.achievement-item .item-2 {
+    color: white;
+    font-size: 50px;
+}
+
+.achievement-item .item-3 {
+    color: #00ff00;
+    font-size: 50px;
 }
