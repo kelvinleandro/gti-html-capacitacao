@@ -140,33 +140,42 @@
     </section>
 
     <section id="contact-us">
-        <div class="map">
-            <h3>Nosso Endereço na terra:</h3>
-        </div>
 
-        <div class="budget">
-            <h3>Faça um orçamento!</h3>
-            <form action="">
-                <input type="text" name="name" id="name" placeholder="Seu nome">
-                <input type="text" name="address" id="address" placeholder="Seu endereço">
-                <input type="email" name="email" id="email" placeholder="e-mail">
+        <h1>FALE CONOSCO!</h1>
 
-                <label for="service">Serviço:</label>
-                <select name="service" id="service">
-                    <option value="reparo-motor">Reparo de Motor</option>
-                    <option value="manutencao-nave">Manutenção de nave</option>
-                    <option value="troca-antimateria">Troca de antimatéria</option>
-                    <option value="reparo-nucleo">Reparo de núcleo de dobra</option>
-                </select>
-                
-                <label for="renew">Renovar pintura:</label>
-                <input type="checkbox" name="renew" id="renew">
-                
-                <label for="wash">Lavagem completa:</label>
-                <input type="checkbox" name="wash" id="wash">
-                
-                <input type="submit" value="Solicitar orçamento!">
-            </form>
+        <div class="contacts-container">
+            <div class="map-location">
+                <h2>Nosso Endereço na terra:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11590.949265957855!2d-38.57896417760901!3d-3.732179276353727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bdcc02bcd69%3A0xc525e5a49c246aa6!2sGTi%20Engenharia%20Jr.!5e0!3m2!1spt-BR!2sbr!4v1696105415570!5m2!1spt-BR!2sbr" 
+                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="budget">
+                <h2>Faça um orçamento!</h2>
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="text" name="address" id="address" placeholder="Seu endereço">
+                    <input type="email" name="email" id="email" placeholder="e-mail">
+                    <label for="service">Serviço:</label>
+                    <select name="service" id="service">
+                        <option value="reparo-motor">Reparo de Motor</option>
+                        <option value="manutencao-nave">Manutenção de nave</option>
+                        <option value="troca-antimateria">Troca de antimatéria</option>
+                        <option value="reparo-nucleo">Reparo de núcleo de dobra</option>
+                    </select>
+            
+                    <div class="checkbox-container">
+                        <label for="renew">Renovar pintura:</label>
+                        <input type="checkbox" name="renew" id="renew">
+                    </div>
+            
+                    <div class="checkbox-container">
+                        <label for="wash">Lavagem completa:</label>
+                        <input type="checkbox" name="wash" id="wash">
+                    </div>
+            
+                    <input type="submit" value="Solicitar orçamento!">
+                </form>
+            </div>
         </div>
     </section>
     

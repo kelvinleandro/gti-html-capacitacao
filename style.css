@@ -138,6 +138,7 @@ header nav a {
     font-weight: 600;
     color: var(--almost-black);
     background-color: #ffff00;
+    border: none;
     border-radius: 10px;
 }
 
@@ -176,6 +177,66 @@ header nav a {
 .achievement-item .item-3 {
     color: #00ff00;
     font-size: 50px;
+}
+
+#contact-us {
+    background-color: var(--almost-black);
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.map-location h2 {
+    margin-top: 0;
+}
+
+.budget {
+    background-color: var(--darker-purple);
+    margin-left: 70px;
+    padding: 10px 70px 30px;
+    border-radius: 20px;
+}
+
+.budget form {
+    display: flex;
+    flex-direction: column;
+}
+
+.budget input,
+.budget > label,
+.budget select {
+    margin-bottom: 10px;
+}
+
+.budget select {
+    width: 175px;
+}
+
+.budget input[type="text"],
+.budget input[type="email"] {
+    min-width: 300px;
+    color: var(--almost-black);
+    padding: 10px 30px 10px 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="submit"] {
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 35px;
+    padding: 15px 40px;
+    background-color: #ffff00;
+    color: var(--almost-black);
+    border: none;
 }
 
 footer {
